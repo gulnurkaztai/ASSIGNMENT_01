@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+}
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+    footer {
+      text-align: left;
+    }
+  }

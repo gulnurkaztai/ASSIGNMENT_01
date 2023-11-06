@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+  }
+  
+body {
+	background-color: #7395AE;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+a{
+	color: #F7F2EC;
+}
+
+#main {
+
+    margin: 0px 50px 10px 30px;
+    height: 500px;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.project {
+    display: none; 
+}
+
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+  }
+  
+  .project-buttons button {
+	flex: 1;
+	padding: 10px;
+	margin: 0 5px;
+	text-align: center;
+	background-color: #F7F2EC;
+	color: #7395AE;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .project-buttons button:hover {
+	background-color: #7395AE;
+	color: #F7F2EC;
+  }
+  
+.project img {
+    width: 20%;
+    height: 20%;
+    display: block; 
+    margin: 20px auto;
+	border-radius: 5%;
+}
+footer {
+	margin: 30px 50px 20px 50px;
+}
+/* smaller screens */
+@media screen and (max-width: 600px) {
+    #main {
+        margin: 30px 5%;
+    }
+    
+    .project img {
+        width: 80%;
+    }
+}

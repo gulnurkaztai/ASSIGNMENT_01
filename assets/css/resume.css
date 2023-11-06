@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+  }
+  
+body {
+	background-color: #7395AE;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+a{
+	color: rgb(247, 242, 236);
+}
+
+#main {
+    padding-top: 10px;
+    margin: 30px 50px 20px 30px;
+    height: 530px;
+
+} 
+  .container {
+	max-width: 800px;
+
+	padding: 20px;
+  }
+  
+  .contact-info,
+  .summary,
+  .experience,
+  .skills,
+  .education {
+	margin-top: 20px;
+  }
+  
+/* smaller screens */
+@media screen and (max-width: 600px) {
+    #main {
+        margin: 30px 5%;
+        padding-top: 10px;
+    }
+    
+    .container {
+        max-width: 100%;
+    }
+}
